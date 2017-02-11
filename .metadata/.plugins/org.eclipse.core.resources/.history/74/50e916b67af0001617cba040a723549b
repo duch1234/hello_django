@@ -1,0 +1,8 @@
+from django.contrib import admin
+from .models import Wygrzewanie
+
+
+
+class Wygrzewanie
+admin.site.register(Wygrzewanie)
+# Register your models here.

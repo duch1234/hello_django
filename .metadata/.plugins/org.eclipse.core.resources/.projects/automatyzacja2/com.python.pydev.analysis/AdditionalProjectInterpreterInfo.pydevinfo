@@ -1,20 +1,29 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/pi/workspaces/orange/django/.metadata/.plugins/org.eclipse.core.resources/.projects/automatyzacja2/com.python.pydev.analysis/v2_indexcache
+automaty.__init__|1486816645609148000|/home/pi/workspaces/orange/django/automatyzacja2/automaty/__init__.py
 automatyzacja2.wsgi|1486814001061767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/wsgi.py
-automatyzacja2.settings|1486814001065767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/settings.py
+automaty.views|1486816645613148000|/home/pi/workspaces/orange/django/automatyzacja2/automaty/views.py
+automaty.tests|1486816645613148000|/home/pi/workspaces/orange/django/automatyzacja2/automaty/tests.py
+automatyzacja2.settings|1486830027330964000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/settings.py
 automatyzacja2.__init__|1486814001061767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/__init__.py
 automatyzacja2.urls|1486814001061767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/urls.py
+automaty.migrations.__init__|1486816645613148000|/home/pi/workspaces/orange/django/automatyzacja2/automaty/migrations/__init__.py
+automaty.migrations.0001_initial|1486828502775014000|/home/pi/workspaces/orange/django/automatyzacja2/automaty/migrations/0001_initial.py
 manage|1486814001057767000|/home/pi/workspaces/orange/django/automatyzacja2/manage.py
+automaty.admin|1486831768619725000|/home/pi/workspaces/orange/django/automatyzacja2/automaty/admin.py
 -- END DISKCACHE
 -- START DICTIONARY
-3
+6
+6=Migration
 2=automatyzacja2.wsgi
 1=automatyzacja2.settings
-3=automatyzacja2.urls
+4=automatyzacja2.urls
+3=automaty.migrations.0001_initial
+5=automaty.admin
 -- END DICTIONARY
 -- START TREE 1
-16
+18
 all|1|ALLOWED_HOSTS!11@
 app|1|application!19@
 bas|1|BASE_DIR!11@
@@ -23,15 +32,25 @@ deb|1|DEBUG!11@
 ins|1|INSTALLED_APPS!11@
 lan|1|LANGUAGE_CODE!11@
 mid|1|MIDDLEWARE_CLASSES!11@
+mig|1|Migration!25@
 roo|1|ROOT_URLCONF!11@
 sec|1|SECRET_KEY!11@
 sta|1|STATIC_URL!11@
 tem|1|TEMPLATES!11@
 tim|1|TIME_ZONE!11@
-url|1|urlpatterns!27@
+url|1|urlpatterns!35@
 use|3|USE_I18N!11@USE_L10N!11@USE_TZ!11@
 wsg|1|WSGI_APPLICATION!11@
+wyg|1|Wygrzewanie!41@
 -- END TREE
 -- START TREE 2
-0
+8
+__s|0|
+aut|0|
+dep|1|dependencies!6&27@
+ope|1|operations!6&27@
+sta|0|
+stb|0|
+tit|0|
+typ|0|
 -- END TREE
