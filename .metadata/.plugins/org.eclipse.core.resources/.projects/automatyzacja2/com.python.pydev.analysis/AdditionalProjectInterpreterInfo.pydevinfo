@@ -1,0 +1,37 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/pi/workspaces/orange/django/.metadata/.plugins/org.eclipse.core.resources/.projects/automatyzacja2/com.python.pydev.analysis/v2_indexcache
+automatyzacja2.wsgi|1486814001061767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/wsgi.py
+automatyzacja2.settings|1486814001065767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/settings.py
+automatyzacja2.__init__|1486814001061767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/__init__.py
+automatyzacja2.urls|1486814001061767000|/home/pi/workspaces/orange/django/automatyzacja2/automatyzacja2/urls.py
+manage|1486814001057767000|/home/pi/workspaces/orange/django/automatyzacja2/manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=automatyzacja2.wsgi
+1=automatyzacja2.settings
+3=automatyzacja2.urls
+-- END DICTIONARY
+-- START TREE 1
+16
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+bas|1|BASE_DIR!11@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATES!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!27@
+use|3|USE_I18N!11@USE_L10N!11@USE_TZ!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

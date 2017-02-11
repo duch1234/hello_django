@@ -1,0 +1,12 @@
+from django.db import models
+from django.utils import timezone
+
+# Create your models here.
+class wygrzewanie(models.Model):
+    STATUS_TESTU=(
+        ('done','Wygrzany'),
+        ("not done","Nie Wygrzany"),
+    )
+    
+    title=models.CharField(max_length=300)
+    
