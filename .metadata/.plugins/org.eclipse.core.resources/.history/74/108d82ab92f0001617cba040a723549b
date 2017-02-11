@@ -1,0 +1,28 @@
+from django.db import models
+from django.utils import timezone
+
+# Create your models here.
+class Wygrzewanie(models.Model):
+    STATUS_TESTU=(
+        ('done','Wygrzany'),
+        ("not done","Nie Wygrzany"),
+    )
+    
+    STB_MODEL=(
+        ('UHD','UHD'),
+        ('WHD','WHD'),  
+        ('Dakota', 'Dakota'),  
+        ('WHD/UHD','WHD/UHD'),
+    )
+    
+    title=models.CharField(max_length=300)
+    titleClass=models.CharField(max_length=300)
+    author=models.CharField(max_length=50)
+    type_stb=models.CharField(max_length=20,
+                              choices=STB_MODEL,
+                              default='WHD/UHD' )
+    test_Status=models.CharField(max_length=20,
+                              choices=STATUS_TESTU,
+                              default='done' )
+    def __str__(self):
+        return self.title

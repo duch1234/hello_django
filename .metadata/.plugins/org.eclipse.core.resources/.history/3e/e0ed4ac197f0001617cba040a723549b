@@ -13,4 +13,4 @@ admin.site.register(Wygrzewanie,WygrzewanieAdmin)
 class Konta_TestoweAdmin(admin.ModelAdmin):
     list_display=('accountNumber','terminalNumbers','technology','accountStatus')
     list_filter=('terminalNumbers','technology','accountStatus')
-admin.site.register(Konta_Testowe,Konta_TestoweAdmin)
+admn.site.register(Konta_Testowe,Konta_TestoweAdmin)

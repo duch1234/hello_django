@@ -26,25 +26,3 @@ class Wygrzewanie(models.Model):
                               default='done' )
     def __str__(self):
         return self.title
-    
-class Konta_Testowe(models.Model):
-    
-    STATUS_KONTA=(
-        ('active','Aktywne'),
-        ("not active","Nie Aktywne"),
-    )
-    
-    TECHNOLOGIA=(
-        ('IPTV','IPTV'),
-        ('DTH','DTH'),
-    )
-    
-    accountNumber=models.DecimalField('Numer konta',max_digits=10,decimal_places=0)
-    terminalNumbers=models.DecimalField('Ilość terminali', max_digits=1,decimal_places=0)
-    technology=models.CharField('Technologia', max_length=10,
-                                choices=TECHNOLOGIA,
-                                default='IPTV')
-    
-    accountStatus=models.CharField('Stan konta',max_length=20,
-                                   choices=STATUS_KONTA,
-                                   default="active")

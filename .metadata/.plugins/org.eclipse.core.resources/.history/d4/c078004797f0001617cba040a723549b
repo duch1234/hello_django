@@ -39,12 +39,8 @@ class Konta_Testowe(models.Model):
         ('DTH','DTH'),
     )
     
-    accountNumber=models.DecimalField('Numer konta',max_digits=10,decimal_places=0)
-    terminalNumbers=models.DecimalField('Ilość terminali', max_digits=1,decimal_places=0)
-    technology=models.CharField('Technologia', max_length=10,
-                                choices=TECHNOLOGIA,
-                                default='IPTV')
-    
+    accountNumber=models.DecimalField('Numer konta',max_digits=10,decimal_places=None)
+    terminalNumbers=models.DecimalField('Ilość terminali', max_digits=1,decimal_places=None)
     accountStatus=models.CharField('Stan konta',max_length=20,
                                    choices=STATUS_KONTA,
                                    default="active")
