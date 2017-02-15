@@ -12,7 +12,7 @@ class WygrzewanieAdmin(admin.ModelAdmin):
     search_fields=('title','titleClass','author','type_stb','test_Status')
     
     actions = [export_xlsx]
-    actions=[Wygrzewanie.dupa,Wygrzewanie.generate_campaigne]
+    actions=[Wygrzewanie.generate_campaigne]
 admin.site.register(Wygrzewanie,WygrzewanieAdmin)
 
 
