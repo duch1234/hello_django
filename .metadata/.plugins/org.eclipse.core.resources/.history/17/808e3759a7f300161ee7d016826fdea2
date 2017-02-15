@@ -1,0 +1,24 @@
+from django.contrib import admin
+from .models import Wygrzewanie
+from .models import Konta_Testowe
+from .models import export_xlsx, generate_campaigne
+
+
+
+# Register your models here.
+class WygrzewanieAdmin(admin.ModelAdmin):
+    list_display=('title','titleClass','author','type_stb','test_Status','created')
+    list_filter=('type_stb','test_Status')
+    search_fields=('title','titleClass','author','type_stb','test_Status')
+    
+    actions = [export_xlsx]
+    actions=[Wygrzewanie.dupa,Wygrzewanie.generate_campaigne]
+admin.site.register(Wygrzewanie,WygrzewanieAdmin)
+
+
+class Konta_TestoweAdmin(admin.ModelAdmin):
+    list_display=('accountNumber','terminalNumbers','technology','accountStatus')
+    list_filter=('terminalNumbers','technology','accountStatus')
+    ordering=['accountNumber']
+#     search_fields=('technology')
+admin.site.register(Konta_Testowe,Konta_TestoweAdmin)
