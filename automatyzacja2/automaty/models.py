@@ -51,10 +51,11 @@ class Wygrzewanie(models.Model):
                     "from xmlrunner import XMLTestRunner \n"
                     "from NewTvTesting.Utils import createAndGetXmlDirPath, writeTsSummaryToFiles\n"
                     "\n")
+        
         test_suite_body=("\nif __name__ == '__main__':\n"
                         "\tsuite = unittest.TestSuite()\n")
         for i in queryset:
-            messages.add_message(request, messages.INFO, i)
+#             messages.add_message(request, messages.INFO, i)
             import_body=import_body+"from OPL_Testing."+str(i)+ " import "+ str(i) +"\n"
             test_suite_body=test_suite_body+"\tsuite.addTest("+str(i)+"(\"test\"))\n"
         
